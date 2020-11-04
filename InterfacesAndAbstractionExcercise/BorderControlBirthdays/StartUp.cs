@@ -50,8 +50,6 @@ namespace BorderControlBirthdays
             {
                 Console.WriteLine(creature.Birthday);
             }
-
-
         }
     }
 }

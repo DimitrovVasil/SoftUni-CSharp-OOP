@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonInfo", "DefineanInterfaceIPerson\PersonInfo.csproj", "{33635C34-B270-4947-B6C9-8BA51C8ACD1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telephony", "Telephony\Telephony.csproj", "{23A70478-E0D9-4406-8F2D-DE1C39041236}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telephony", "Telephony\Telephony.csproj", "{23A70478-E0D9-4406-8F2D-DE1C39041236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorderControl", "BorderControl\BorderControl.csproj", "{BBE48959-90E4-40F8-9181-1127412B8550}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BorderControl", "BorderControl\BorderControl.csproj", "{BBE48959-90E4-40F8-9181-1127412B8550}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BorderControlBirthdays", "BorderControlBirthdays\BorderControlBirthdays.csproj", "{0A1696CF-D7E3-44A5-BFA7-32B0B75D4ED8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodShortage", "FoodShortage\FoodShortage.csproj", "{EAFB2EC8-19BC-48EC-AE49-368D2B7B43DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0A1696CF-D7E3-44A5-BFA7-32B0B75D4ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A1696CF-D7E3-44A5-BFA7-32B0B75D4ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A1696CF-D7E3-44A5-BFA7-32B0B75D4ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFB2EC8-19BC-48EC-AE49-368D2B7B43DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFB2EC8-19BC-48EC-AE49-368D2B7B43DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFB2EC8-19BC-48EC-AE49-368D2B7B43DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFB2EC8-19BC-48EC-AE49-368D2B7B43DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
