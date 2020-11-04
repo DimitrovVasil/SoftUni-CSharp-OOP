@@ -1,0 +1,7 @@
+C:\Users\Vedeghor\source\repos\C# OOP October 2020\ExamProblems\Exam-Skeleton\EasterRaces\bin\Debug\netcoreapp3.1\EasterRaces.exe
+C:\Users\Vedeghor\source\repos\C# OOP October 2020\ExamProblems\Exam-Skeleton\EasterRaces\obj\Debug\netcoreapp3.1\EasterRaces.csprojAssemblyReference.cache
+C:\Users\Vedeghor\source\repos\C# OOP October 2020\ExamProblems\Exam-Skeleton\EasterRaces\obj\Debug\netcoreapp3.1\EasterRaces.AssemblyInfoInputs.cache
+C:\Users\Vedeghor\source\repos\C# OOP October 2020\ExamProblems\Exam-Skeleton\EasterRaces\obj\Debug\netcoreapp3.1\EasterRaces.AssemblyInfo.cs
+C:\Users\Vedeghor\source\repos\C# OOP October 2020\ExamProblems\Exam-Skeleton\EasterRaces\obj\Debug\netcoreapp3.1\EasterRaces.csproj.CoreCompileInputs.cache
+C:\Users\Vedeghor\source\repos\C# OOP October 2020\ExamProblems\Exam-Skeleton\EasterRaces\obj\Debug\netcoreapp3.1\EasterRaces.dll
+C:\Users\Vedeghor\source\repos\C# OOP October 2020\ExamProblems\Exam-Skeleton\EasterRaces\obj\Debug\netcoreapp3.1\EasterRaces.pdb
