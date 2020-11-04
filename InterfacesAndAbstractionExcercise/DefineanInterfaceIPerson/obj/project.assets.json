@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP\\04.Interfaces\\DefineanInterfaceIPerson\\PersonInfo.csproj",
+      "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\InterfacesAndAbstractionExcercise\\DefineanInterfaceIPerson\\PersonInfo.csproj",
       "projectName": "PersonInfo",
-      "projectPath": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP\\04.Interfaces\\DefineanInterfaceIPerson\\PersonInfo.csproj",
+      "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\InterfacesAndAbstractionExcercise\\DefineanInterfaceIPerson\\PersonInfo.csproj",
       "packagesPath": "C:\\Users\\Vedeghor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP\\04.Interfaces\\DefineanInterfaceIPerson\\obj\\",
+      "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\InterfacesAndAbstractionExcercise\\DefineanInterfaceIPerson\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vedeghor\\AppData\\Roaming\\NuGet\\NuGet.Config",

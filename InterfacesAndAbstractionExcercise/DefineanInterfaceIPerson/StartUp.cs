@@ -14,8 +14,6 @@ namespace PersonInfo
 
             Citizen citizen = new Citizen(name, age, id, birthdate);
 
-            //Console.WriteLine(citizen.Name);
-           // Console.WriteLine(citizen.Age);
             Console.WriteLine(citizen.Id);
             Console.WriteLine(citizen.Birthdate);
         }
