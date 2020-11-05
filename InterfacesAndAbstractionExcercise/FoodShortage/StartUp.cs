@@ -56,7 +56,6 @@ namespace FoodShortage
             }
 
             Console.WriteLine(foodSum);
-
         }
     }
 }
