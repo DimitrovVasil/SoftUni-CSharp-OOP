@@ -11,16 +11,12 @@ namespace WildFarm
             List<Animal> animals = new List<Animal>();
 
             string animalInfo = string.Empty;
-            int index = 0;
 
             while ((animalInfo = Console.ReadLine()) != "End")
             {   
                 string[] info = animalInfo.Split(" ", StringSplitOptions.RemoveEmptyEntries);
   
                     Animal animal = null;
-                    //Felines - "{Type} {Name} {Weight} {LivingRegion} {Breed}";
-                    //Birds - "{Type} {Name} {Weight} {WingSize}";
-                    //Mice and Dogs - "{Type} {Name} {Weight} {LivingRegion}";
 
                     string animalType = info[0];
                     string animalName = info[1];
