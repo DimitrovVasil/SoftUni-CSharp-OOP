@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodShortage", "FoodShortag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MilitaryElite", "MilitaryElite\MilitaryElite.csproj", "{3FFBBFBA-D0AA-44AF-994F-3D9698925964}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExplicitInterfaces", "ExplicitInterfaces\ExplicitInterfaces.csproj", "{BCF323C9-04D4-426D-A11C-61B7BB8D269C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{3FFBBFBA-D0AA-44AF-994F-3D9698925964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FFBBFBA-D0AA-44AF-994F-3D9698925964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FFBBFBA-D0AA-44AF-994F-3D9698925964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF323C9-04D4-426D-A11C-61B7BB8D269C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF323C9-04D4-426D-A11C-61B7BB8D269C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF323C9-04D4-426D-A11C-61B7BB8D269C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF323C9-04D4-426D-A11C-61B7BB8D269C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

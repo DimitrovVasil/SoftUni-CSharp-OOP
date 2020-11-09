@@ -1,0 +1,13 @@
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\InterfacesAndAbstractionExcercise\ExplicitInterfaces\bin\Debug\netcoreapp3.1\ExplicitInterfaces.exe
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\InterfacesAndAbstractionExcercise\ExplicitInterfaces\bin\Debug\netcoreapp3.1\ExplicitInterfaces.deps.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\InterfacesAndAbstractionExcercise\ExplicitInterfaces\bin\Debug\netcoreapp3.1\ExplicitInterfaces.runtimeconfig.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\InterfacesAndAbstractionExcercise\ExplicitInterfaces\bin\Debug\netcoreapp3.1\ExplicitInterfaces.runtimeconfig.dev.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\InterfacesAndAbstractionExcercise\ExplicitInterfaces\bin\Debug\netcoreapp3.1\ExplicitInterfaces.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\InterfacesAndAbstractionExcercise\ExplicitInterfaces\bin\Debug\netcoreapp3.1\ExplicitInterfaces.pdb
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\InterfacesAndAbstractionExcercise\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.csprojAssemblyReference.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\InterfacesAndAbstractionExcercise\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.AssemblyInfoInputs.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\InterfacesAndAbstractionExcercise\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.AssemblyInfo.cs
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\InterfacesAndAbstractionExcercise\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\InterfacesAndAbstractionExcercise\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\InterfacesAndAbstractionExcercise\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.pdb
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\InterfacesAndAbstractionExcercise\ExplicitInterfaces\obj\Debug\netcoreapp3.1\ExplicitInterfaces.genruntimeconfig.cache
