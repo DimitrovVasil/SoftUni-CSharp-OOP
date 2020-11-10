@@ -7,15 +7,9 @@ namespace Vehicles
     public class Truck : Vehicle
     {
 
-        public Truck(double fuelQuantity, double fuelConsumption) : base(fuelQuantity, fuelConsumption)
+        public Truck(double fuelQuantity, double fuelConsumption, double tankCapacity) : base(fuelQuantity, fuelConsumption, tankCapacity)
         {
             FuelConsumption += 1.6;
-        }
-
-        public override void Refuel(double amount)
-        {
-            amount = 0.95 * amount;
-            FuelQuantity += amount;
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using System.Text;
 
 namespace Vehicles
@@ -10,16 +11,30 @@ namespace Vehicles
         private double fuelConsumption;
         
 
-        protected Vehicle(double fuelQuantity, double fuelConsumption)
+        protected Vehicle(double fuelQuantity, double fuelConsumption, double tankCapacity)
         {
-           FuelQuantity = fuelQuantity;
-           FuelConsumption = fuelConsumption;
+            TankCapacity = tankCapacity;
+            FuelQuantity = fuelQuantity;
+            FuelConsumption = fuelConsumption;
+           
         }
 
         public double FuelQuantity
         {
             get { return fuelQuantity; }
-            set { fuelQuantity = value; }
+            set
+            {
+                if (value > TankCapacity)
+                {
+                    fuelQuantity = 0;
+                }
+
+                else
+                {
+                    fuelQuantity = value;
+                }
+                
+            }
         }
 
         public double FuelConsumption
@@ -28,7 +43,9 @@ namespace Vehicles
             set { fuelConsumption = value; }
         }
 
-        public string Drive(double distance)
+        public double TankCapacity { get;  }
+
+        public virtual string Drive(double distance)
         {
             if (FuelConsumption * distance <= FuelQuantity)
             {
@@ -41,6 +58,21 @@ namespace Vehicles
 
         public virtual void Refuel(double amount)
         {
+            if (TankCapacity - FuelQuantity < amount)
+            {
+                throw new ArgumentException($"Cannot fit {amount} fuel in the tank");
+            }
+
+            if (amount <= 0)
+            {
+                throw new ArgumentException("Fuel must be a positive number");
+            }
+
+            if (this is Truck)
+            {
+                amount = amount * 0.95;
+            }
+
             FuelQuantity += amount;
         }
     }
