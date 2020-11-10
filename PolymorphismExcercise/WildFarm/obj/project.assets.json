@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\PolymorphismExcercise\\Vehicles\\Vehicles.csproj",
-      "projectName": "Vehicles",
-      "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\PolymorphismExcercise\\Vehicles\\Vehicles.csproj",
+      "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\PolymorphismExcercise\\WildFarm\\WildFarm.csproj",
+      "projectName": "WildFarm",
+      "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\PolymorphismExcercise\\WildFarm\\WildFarm.csproj",
       "packagesPath": "C:\\Users\\Vedeghor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\PolymorphismExcercise\\Vehicles\\obj\\",
+      "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\PolymorphismExcercise\\WildFarm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vedeghor\\AppData\\Roaming\\NuGet\\NuGet.Config",

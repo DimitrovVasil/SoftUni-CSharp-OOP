@@ -6,29 +6,29 @@ namespace Vehicles
 {
     public class Vehicle
     {
-        private decimal fuelQuantity;
-        private decimal fuelConsumption;
+        private double fuelQuantity;
+        private double fuelConsumption;
         
 
-        protected Vehicle(decimal fuelQuantity, decimal fuelConsumption)
+        protected Vehicle(double fuelQuantity, double fuelConsumption)
         {
            FuelQuantity = fuelQuantity;
            FuelConsumption = fuelConsumption;
         }
 
-        public decimal FuelQuantity
+        public double FuelQuantity
         {
             get { return fuelQuantity; }
             set { fuelQuantity = value; }
         }
 
-        public decimal FuelConsumption
+        public double FuelConsumption
         {
             get { return fuelConsumption; }
             set { fuelConsumption = value; }
         }
 
-        public string Drive(decimal distance)
+        public string Drive(double distance)
         {
             if (FuelConsumption * distance <= FuelQuantity)
             {
@@ -39,7 +39,7 @@ namespace Vehicles
             return $"{this.GetType().Name} needs refueling";
         }
 
-        public virtual void Refuel(decimal amount)
+        public virtual void Refuel(double amount)
         {
             FuelQuantity += amount;
         }

@@ -7,14 +7,14 @@ namespace Vehicles
     public class Truck : Vehicle
     {
 
-        public Truck(decimal fuelQuantity, decimal fuelConsumption) : base(fuelQuantity, fuelConsumption)
+        public Truck(double fuelQuantity, double fuelConsumption) : base(fuelQuantity, fuelConsumption)
         {
-            FuelConsumption += FuelConsumption * 1.6m;
+            FuelConsumption += 1.6;
         }
 
-        public override void Refuel(decimal amount)
+        public override void Refuel(double amount)
         {
-            amount = 0.95m * amount;
+            amount = 0.95 * amount;
             FuelQuantity += amount;
         }
     }

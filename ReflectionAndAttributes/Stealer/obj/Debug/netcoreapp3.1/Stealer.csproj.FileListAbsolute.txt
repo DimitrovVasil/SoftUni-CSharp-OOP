@@ -1,0 +1,13 @@
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ReflectionAndAttributes\Stealer\bin\Debug\netcoreapp3.1\Stealer.exe
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ReflectionAndAttributes\Stealer\bin\Debug\netcoreapp3.1\Stealer.deps.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ReflectionAndAttributes\Stealer\bin\Debug\netcoreapp3.1\Stealer.runtimeconfig.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ReflectionAndAttributes\Stealer\bin\Debug\netcoreapp3.1\Stealer.runtimeconfig.dev.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ReflectionAndAttributes\Stealer\bin\Debug\netcoreapp3.1\Stealer.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ReflectionAndAttributes\Stealer\bin\Debug\netcoreapp3.1\Stealer.pdb
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ReflectionAndAttributes\Stealer\obj\Debug\netcoreapp3.1\Stealer.csprojAssemblyReference.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ReflectionAndAttributes\Stealer\obj\Debug\netcoreapp3.1\Stealer.AssemblyInfoInputs.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ReflectionAndAttributes\Stealer\obj\Debug\netcoreapp3.1\Stealer.AssemblyInfo.cs
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ReflectionAndAttributes\Stealer\obj\Debug\netcoreapp3.1\Stealer.csproj.CoreCompileInputs.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ReflectionAndAttributes\Stealer\obj\Debug\netcoreapp3.1\Stealer.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ReflectionAndAttributes\Stealer\obj\Debug\netcoreapp3.1\Stealer.pdb
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ReflectionAndAttributes\Stealer\obj\Debug\netcoreapp3.1\Stealer.genruntimeconfig.cache

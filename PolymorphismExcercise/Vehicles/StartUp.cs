@@ -8,15 +8,15 @@ namespace Vehicles
         {
             string[] carInfo = Console.ReadLine().Split();
 
-            decimal fuelQuantity = decimal.Parse(carInfo[1]);
-            decimal fuelConsumption = decimal.Parse(carInfo[2]);
+            double fuelQuantity = double.Parse(carInfo[1]);
+            double fuelConsumption = double.Parse(carInfo[2]);
 
             Car car = new Car(fuelQuantity, fuelConsumption);
 
             string[] truckInfo = Console.ReadLine().Split();
 
-            decimal fuelQuantityTruck = decimal.Parse(truckInfo[1]);
-            decimal fuelConsumptionTruck = decimal.Parse(truckInfo[2]);
+            double fuelQuantityTruck = double.Parse(truckInfo[1]);
+            double fuelConsumptionTruck = double.Parse(truckInfo[2]);
 
             Truck truck = new Truck(fuelQuantityTruck, fuelConsumptionTruck);
 
@@ -30,7 +30,7 @@ namespace Vehicles
 
                 if (cmd == "Drive")
                 {
-                    decimal distance = decimal.Parse(input[2]);
+                    double distance = double.Parse(input[2]);
 
                     if (vehicle == "Car")
                     {
@@ -45,7 +45,7 @@ namespace Vehicles
 
                 else if (cmd == "Refuel")
                 {
-                    decimal liters = decimal.Parse(input[2]);
+                    double liters = double.Parse(input[2]);
 
                     if (vehicle == "Car")
                     {

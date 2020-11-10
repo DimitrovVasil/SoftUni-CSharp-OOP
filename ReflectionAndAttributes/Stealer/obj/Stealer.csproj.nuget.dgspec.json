@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\PolymorphismExcercise\\Vehicles\\Vehicles.csproj": {}
+    "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ReflectionAndAttributes\\Stealer\\Stealer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\PolymorphismExcercise\\Vehicles\\Vehicles.csproj": {
+    "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ReflectionAndAttributes\\Stealer\\Stealer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\PolymorphismExcercise\\Vehicles\\Vehicles.csproj",
-        "projectName": "Vehicles",
-        "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\PolymorphismExcercise\\Vehicles\\Vehicles.csproj",
+        "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ReflectionAndAttributes\\Stealer\\Stealer.csproj",
+        "projectName": "Stealer",
+        "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ReflectionAndAttributes\\Stealer\\Stealer.csproj",
         "packagesPath": "C:\\Users\\Vedeghor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\PolymorphismExcercise\\Vehicles\\obj\\",
+        "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ReflectionAndAttributes\\Stealer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vedeghor\\AppData\\Roaming\\NuGet\\NuGet.Config",
