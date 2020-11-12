@@ -10,43 +10,47 @@ namespace EasterRaces.Repositories.Entities
 {
     public class Repository<T> : IRepository<T>
     {
+        private List<T> models;
+
         public Repository()
         {
-            Models = new List<T>();
+            models = new List<T>();
         }
 
-        public List<T> Models;
+        public ICollection<T> Models
+        { 
+            get => models;
+        }
 
         public void Add(T model)
         {
-            Models.Add(model);
+            models.Add(model);
         }
 
-        public IReadOnlyCollection<T> GetAll()
+        public ICollection<T> GetAll()
         {
-            IReadOnlyCollection<T> collection = Models.AsReadOnly();
-
-            return collection;
+            return models.AsReadOnly();
         }
 
         public T GetByName(string name)
         {
-            dynamic dynamic = 5;
-            T element = dynamic;
-            return element;
-
-            throw new Exception("NE SAM GO IMPLEMENTIRAL");
+            var result = models.FirstOrDefault(x => x.GetType().Name == name);
+            return result;
         }
 
         public bool Remove(T model)
         {
-            if (Models.Contains(model))
-            {
-                Models.Remove(model);
-                return true;
-            }
 
-            return false;
+            return models.Remove(model);
+            //var modelForRemove = models.FirstOrDefault(x => x.GetType() == model.GetType());
+
+            //if (modelForRemove != null)
+            //{
+            //    models.Remove(modelForRemove);
+            //    return true;
+            //}
+
+            //return false;
         }
     }
 }

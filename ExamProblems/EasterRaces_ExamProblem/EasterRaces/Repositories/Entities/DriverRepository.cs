@@ -1,10 +1,11 @@
-﻿using System;
+﻿using EasterRaces.Models.Drivers.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace EasterRaces.Repositories.Entities
 {
-    public class DriverRepository<T> : Repository<T>
+    public class DriverRepository : Repository<IDriver>
     {
         public DriverRepository()
         {

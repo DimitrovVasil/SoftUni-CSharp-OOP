@@ -2,12 +2,12 @@
 {
     public interface ICar
     {
-        string Model { get; }
+        public string Model { get;  }
 
-        int HorsePower { get; }
+        public int HorsePower { get;  }
 
-        double CubicCentimeters { get; }
+        public double CubicCentimeters { get; }
 
-        double CalculateRacePoints(int laps);
+        public double CalculateRacePoints(int laps);
     }
 }

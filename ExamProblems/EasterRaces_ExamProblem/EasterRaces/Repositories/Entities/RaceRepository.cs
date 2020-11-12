@@ -1,12 +1,13 @@
-﻿using System;
+﻿using EasterRaces.Models.Races.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace EasterRaces.Repositories.Entities
 {
-    public class RaceRepository<T> : Repository<T>
+    public class RaceRepository: Repository<IRace>
     {
-        public RaceRepository()
+        public RaceRepository() : base()
         {
         }
     }

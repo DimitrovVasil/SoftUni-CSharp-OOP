@@ -1,4 +1,5 @@
-﻿using OnlineShop.Models.Products;
+﻿using OnlineShop.Common.Constants;
+using OnlineShop.Models.Products;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,8 +11,8 @@ namespace OnlineShop.Models
         private int id;
         private string manufacturer;
         private string model;
-        protected decimal price;
-        protected double overallPerformance;
+        private decimal price;
+        private double overallPerformance;
 
         public Product(int id, string manufacturer, string model, decimal price, double overallPerformance)
         {
@@ -23,80 +24,93 @@ namespace OnlineShop.Models
         }
 
         public int Id
-        {
-            get { return id; }
-            set 
+        { 
+            get
+            {
+                return id;
+            } 
+            set
             {
                 if (value <= 0)
                 {
-                    throw new ArgumentException("Id can not be less or equal than 0.");
+                    throw new ArgumentException(ExceptionMessages.InvalidProductId);
                 }
 
                 id = value;
-            }
-        } 
+            } 
+        }
 
         public string Manufacturer
         {
-            get { return manufacturer; }
+            get
+            {
+                return manufacturer;
+            }
             set
             {
-                if (String.IsNullOrWhiteSpace(value))
+                if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentException("Manufacturer can not be empty.");
+                    throw new ArgumentException(ExceptionMessages.InvalidManufacturer);
                 }
 
                 manufacturer = value;
             }
         }
-    
+
         public string Model
         {
-            get { return model; }
-            set 
+            get
             {
-                if (String.IsNullOrWhiteSpace(value))
+                return model;
+            }
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
                 {
-                    throw new ArgumentException("Model can not be empty.");
+                    throw new ArgumentException(ExceptionMessages.InvalidModel);
                 }
 
-                model = value; 
+                model = value;
             }
         }
 
         public virtual decimal Price
         {
-            get { return price; }
-            set 
+            get
+            {
+                return price;
+            }
+            set
             {
                 if (value <= 0)
                 {
-                    throw new ArgumentException("Price can not be less or equal than 0.");
+                    throw new ArgumentException(ExceptionMessages.InvalidPrice);
                 }
 
-                price = value; 
+                price = value;
             }
         }
 
         public virtual double OverallPerformance
         {
-            get { return overallPerformance; }
+            get
+            {
+                return overallPerformance;
+            }
             set
             {
                 if (value <= 0)
                 {
-                    throw new ArgumentException("Overall Performance can not be less or equal than 0.");
+                    throw new ArgumentException(ExceptionMessages.InvalidOverallPerformance);
                 }
 
                 overallPerformance = value;
             }
         }
-
-        // is right  product type??
         public override string ToString()
         {
-            return $"Overall Performance: {OverallPerformance}. Price: {Price} - {this.GetType().Name}: {manufacturer} {model} (Id: {id})";
-        }
+            return $"Overall Performance: {OverallPerformance}. Price: {Price} - {this.GetType().Name}: {Manufacturer} {Model} (Id: {Id})";
 
+        }
     }
 }

@@ -6,7 +6,7 @@ namespace OnlineShop.Models
 {
     public class Laptop : Computer
     {
-        public Laptop(int id, string manufacturer, string model, decimal price, double overallPerformance) 
+        public Laptop(int id, string manufacturer, string model, decimal price) 
             : base(id, manufacturer, model, price, 10)
         {
         }

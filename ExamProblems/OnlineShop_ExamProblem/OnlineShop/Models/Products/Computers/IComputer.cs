@@ -6,9 +6,9 @@ namespace OnlineShop.Models.Products.Computers
 {
     public interface IComputer : IProduct
     {
-        IReadOnlyCollection<IComponent> Components { get; }
+        public IReadOnlyCollection<IComponent> Components { get; }
 
-        IReadOnlyCollection<IPeripheral> Peripherals { get; }
+        public IReadOnlyCollection<IPeripheral> Peripherals { get; }
 
         void AddComponent(IComponent component);
 

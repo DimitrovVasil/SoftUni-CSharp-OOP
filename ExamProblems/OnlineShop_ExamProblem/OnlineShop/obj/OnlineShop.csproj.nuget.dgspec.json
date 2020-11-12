@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\ExamProblems\\OnlineShop-Skeleton\\OnlineShop\\OnlineShop.csproj": {}
+    "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\OnlineShop_ExamProblem\\OnlineShop\\OnlineShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\ExamProblems\\OnlineShop-Skeleton\\OnlineShop\\OnlineShop.csproj": {
+    "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\OnlineShop_ExamProblem\\OnlineShop\\OnlineShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\ExamProblems\\OnlineShop-Skeleton\\OnlineShop\\OnlineShop.csproj",
+        "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\OnlineShop_ExamProblem\\OnlineShop\\OnlineShop.csproj",
         "projectName": "OnlineShop",
-        "projectPath": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\ExamProblems\\OnlineShop-Skeleton\\OnlineShop\\OnlineShop.csproj",
+        "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\OnlineShop_ExamProblem\\OnlineShop\\OnlineShop.csproj",
         "packagesPath": "C:\\Users\\Vedeghor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\ExamProblems\\OnlineShop-Skeleton\\OnlineShop\\obj\\",
+        "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\OnlineShop_ExamProblem\\OnlineShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vedeghor\\AppData\\Roaming\\NuGet\\NuGet.Config",

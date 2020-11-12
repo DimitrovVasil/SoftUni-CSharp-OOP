@@ -1,129 +1,113 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
+using OnlineShop.Common.Constants;
 using OnlineShop.Models.Products.Components;
+using OnlineShop.Models.Products.Computers;
 using OnlineShop.Models.Products.Peripherals;
 
 namespace OnlineShop.Models
 {
-    public abstract class Computer : Product
+   
+    public abstract class Computer : Product, IComputer
     {
-        protected Computer(int id, string manufacturer, string model, decimal price, double overallPerformance)
+        private ICollection<IComponent> components;
+        private ICollection<IPeripheral> peripherals;
+
+        protected Computer(int id, string manufacturer, string model, decimal price, double overallPerformance) 
             : base(id, manufacturer, model, price, overallPerformance)
         {
-            
+            components = new List<IComponent>();
+            peripherals = new List<IPeripheral>();
         }
 
-        private List<IComponent> components;
-        private List<IPeripheral> peripherals;
+        public IReadOnlyCollection<IComponent> Components 
+        {
+            get
+            {
+                return this.components.ToList().AsReadOnly();
+            }
+        }
 
-        public IReadOnlyCollection<IComponent> Components => components.AsReadOnly();
-        public IReadOnlyCollection<IPeripheral> Peripherals => peripherals.AsReadOnly();
+        public IReadOnlyCollection<IPeripheral> Peripherals
+        {
+            get
+            {
+                return (IReadOnlyCollection<IPeripheral>)peripherals.ToList().AsReadOnly();
+            }
+        }
 
         public override double OverallPerformance
         {
-            get 
+            get
             {
-                if (Components.Count == 0)
+                if (this.Components.Count == 0)
                 {
-                    return this.overallPerformance;
+                    return base.OverallPerformance;
                 }
 
                 else
                 {
-                    //otherwise return the sum of the computer overall performance 
-                    //and the average overall performance from all components
-                    return this.overallPerformance + Components.Average(x => x.OverallPerformance);
+                    return base.OverallPerformance + components.Average(x => x.OverallPerformance);
                 }
-            } 
-            
-            set 
-            {
-                overallPerformance = value;
-            } 
+            }
         }
 
         public override decimal Price 
         {
-            get           
-            {
-                return this.price + Components.Sum(c => c.Price) + Peripherals.Sum(c => c.Price);
-            }
-
-            set
-            {
-                this.price = value;
-            }
+            get => base.Price + this.peripherals.Sum(x => x.Price) + this.components.Sum(x => x.Price); 
+            
         }
-
 
         public void AddComponent(IComponent component)
         {
-            //If the components collection contains a component with the same component type,
-            //throw an ArgumentException
-            //with the message "Component {component type} already exists in {computer type} with Id {id}."
-            Type componentType = component.GetType();
-
-            var searchedComponent = Components.FirstOrDefault(x => x.GetType() == componentType);
-
-            if (searchedComponent != null)
+            if (Components.Contains(component))
             {
-                // computer ID or component iD?
-                throw new ArgumentException($"Component { component.GetType().Name } already exists in { this.GetType().Name} with Id {Id}.");
+                throw new ArgumentException(string.Format(ExceptionMessages.ExistingComponent, component.GetType().Name, this.GetType().Name, this.Id));
             }
 
             components.Add(component);
         }
 
-        public IComponent RemoveComponent(string componentType)
-        {
-           // string componentTypeName = component.GetType();
-
-            var componentForRemove = Components.FirstOrDefault(x => x.GetType().Name == componentType);
-
-            if (Components.Count == 0 || componentForRemove == null)
-            {
-                throw new ArgumentException($"Component {componentType} does not exist in {this.GetType().Name} with Id {Id}.");
-            }
-
-            var removedItem = componentForRemove;
-            components.Remove(componentForRemove);
-
-            return removedItem;
-        }
-
         public void AddPeripheral(IPeripheral peripheral)
         {
-            Type peripheralType = peripheral.GetType();
-
-            var searchedPeripheral = Peripherals.FirstOrDefault(x => x.GetType() == peripheralType);
-
-            if (searchedPeripheral != null)
+            if (Peripherals.Contains(peripheral))
             {
-                // computer ID or repirpheral iD?
-                throw new ArgumentException($"Peripheral { peripheral.GetType().Name } already exists in { this.GetType().Name} with Id {Id}.");
+                throw new ArgumentException(string.Format(ExceptionMessages.ExistingPeripheral, peripheral.GetType().Name, this.GetType().Name, this.Id));
             }
 
             peripherals.Add(peripheral);
         }
 
-        IPeripheral RemovePeripheral(string peripheralType)
+        public IComponent RemoveComponent(string componentType)
         {
-            var peripheralForRemove = Peripherals.FirstOrDefault(x => x.GetType().Name == peripheralType);
-
-            if (Peripherals.Count == 0 || peripheralForRemove == null)
+            if (Components.Count == 0 || !Components.Any(x => x.GetType().Name == componentType))
             {
-                throw new ArgumentException($"Component {peripheralType} does not exist in {this.GetType().Name} with Id {Id}.");
+                throw new ArgumentException(string.Format(ExceptionMessages.NotExistingComponent, componentType, this.GetType().Name, this.Id));
             }
 
-            var removedItem = peripheralForRemove;
-            peripherals.Remove(peripheralForRemove);
+            IComponent componentForRemove = Components.FirstOrDefault(x => x.GetType().Name == componentType);
+            components.Remove(componentForRemove);
 
-            return removedItem;
+            return componentForRemove;
         }
 
+        public IPeripheral RemovePeripheral(string peripheralType)
+        {   
+
+            if (Peripherals.Count == 0 || !Peripherals.Any(x => x.GetType().Name == peripheralType))
+            {
+                throw new ArgumentException(string.Format(ExceptionMessages.NotExistingPeripheral, peripheralType, this.GetType().Name, this.Id));
+            }
+
+            IPeripheral peripheralForRemove = Peripherals.FirstOrDefault(x => x.GetType().Name == peripheralType);
+            peripherals.Remove(peripheralForRemove);
+
+            return peripheralForRemove;
+        }
 
         public override string ToString()
         {

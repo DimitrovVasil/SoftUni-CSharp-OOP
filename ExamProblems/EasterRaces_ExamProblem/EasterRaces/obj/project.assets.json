@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\ExamProblems\\Exam-Skeleton\\EasterRaces\\EasterRaces.csproj",
+      "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\EasterRaces_ExamProblem\\EasterRaces\\EasterRaces.csproj",
       "projectName": "EasterRaces",
-      "projectPath": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\ExamProblems\\Exam-Skeleton\\EasterRaces\\EasterRaces.csproj",
+      "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\EasterRaces_ExamProblem\\EasterRaces\\EasterRaces.csproj",
       "packagesPath": "C:\\Users\\Vedeghor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\ExamProblems\\Exam-Skeleton\\EasterRaces\\obj\\",
+      "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\EasterRaces_ExamProblem\\EasterRaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vedeghor\\AppData\\Roaming\\NuGet\\NuGet.Config",

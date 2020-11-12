@@ -1,51 +1,58 @@
 ﻿using System;
 using System.Collections.Generic;
 using EasterRaces.Models.Cars.Contracts;
-
+using EasterRaces.Utilities.Messages;
 
 namespace EasterRaces.Models.Cars.Entities
 {
-    public abstract class Car : ICar
+    public class Car : ICar
     {
         private string model;
+        private int horsePower;
+        private int minHorsePower;
+        private int maxHorsePower;
 
         public Car(string model, int horsePower, double cubicCentimeters, int minHorsePower, int maxHorsePower)
         {
             Model = model;
             HorsePower = horsePower;
             CubicCentimeters = cubicCentimeters;
-            MinHorsePower = minHorsePower;
-            MaxHorsePower = maxHorsePower;
+            this.minHorsePower = minHorsePower;
+            this.maxHorsePower = maxHorsePower;
         }
 
-        public int MinHorsePower { get; set; }
-        public int MaxHorsePower { get; set; }
         public string Model
-        {
-            get
+        { 
+            get => this.model;
+            private set 
             {
-                return model;
-            }
-
-            set
-            {
-                if (value == null || value == "" || value == " " || value == "  " || value == "   "|| value.Length < 4)
+                if (String.IsNullOrWhiteSpace(value) || value.Length < 4)
                 {
-                    throw new ArgumentException($"Model {value} cannot be less than 4 symbols.");
+                    throw new ArgumentException(String.Format(ExceptionMessages.InvalidModel, value, 4));
                 }
 
-                model = value;
+                this.model = value;
             }
         }
+        public int HorsePower 
+        {
+            get => this.horsePower;
+            private set 
+            {
+                if (value < minHorsePower || value > maxHorsePower)
+                {
+                    throw new ArgumentException(String.Format(ExceptionMessages.InvalidHorsePower, value));
+                }
 
-        public virtual int HorsePower { get; set; }
-
-        public double CubicCentimeters { get; set; }
+                horsePower = value;
+            }
+        }
+        public double CubicCentimeters { get; private set; }
+       
 
         public double CalculateRacePoints(int laps)
         {
-            double result = CubicCentimeters / HorsePower * laps;
-            return result;
+            return CubicCentimeters / horsePower * laps;
         }
     }
 

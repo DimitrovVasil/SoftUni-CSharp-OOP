@@ -1,14 +1,16 @@
-﻿using System;
+﻿using EasterRaces.Models.Cars.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace EasterRaces.Repositories.Entities
 {
-    public class CarRepository<T> : Repository<T>
+    public class CarRepository : Repository<ICar>
     {
-        public CarRepository()
+        public CarRepository() : base()
         {
-            Models = new List<T>();
+          
         }
+
     }
 }
