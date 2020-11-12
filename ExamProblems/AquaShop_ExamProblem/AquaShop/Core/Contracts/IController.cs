@@ -1,4 +1,5 @@
-﻿namespace AquaShop.Core.Contracts
+﻿
+namespace AquaShop.Core.Contracts
 {
     public interface IController
     {
