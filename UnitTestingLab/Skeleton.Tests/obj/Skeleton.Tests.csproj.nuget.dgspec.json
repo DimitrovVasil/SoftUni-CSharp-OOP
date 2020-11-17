@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\UnitTestingLab\\Skeleton.Tests\\Skeleton.Tests.csproj": {}
+    "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingLab\\Skeleton.Tests\\Skeleton.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\UnitTestingLab\\Skeleton.Tests\\Skeleton.Tests.csproj": {
+    "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingLab\\Skeleton.Tests\\Skeleton.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\UnitTestingLab\\Skeleton.Tests\\Skeleton.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingLab\\Skeleton.Tests\\Skeleton.Tests.csproj",
         "projectName": "Skeleton.Tests",
-        "projectPath": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\UnitTestingLab\\Skeleton.Tests\\Skeleton.Tests.csproj",
+        "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingLab\\Skeleton.Tests\\Skeleton.Tests.csproj",
         "packagesPath": "C:\\Users\\Vedeghor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\UnitTestingLab\\Skeleton.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingLab\\Skeleton.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vedeghor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\UnitTestingLab\\Skeleton\\Skeleton.csproj": {
-                "projectPath": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\UnitTestingLab\\Skeleton\\Skeleton.csproj"
+              "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingLab\\Skeleton\\Skeleton.csproj": {
+                "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingLab\\Skeleton\\Skeleton.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\UnitTestingLab\\Skeleton\\Skeleton.csproj": {
+    "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingLab\\Skeleton\\Skeleton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\UnitTestingLab\\Skeleton\\Skeleton.csproj",
+        "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingLab\\Skeleton\\Skeleton.csproj",
         "projectName": "Skeleton",
-        "projectPath": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\UnitTestingLab\\Skeleton\\Skeleton.csproj",
+        "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingLab\\Skeleton\\Skeleton.csproj",
         "packagesPath": "C:\\Users\\Vedeghor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\UnitTestingLab\\Skeleton\\obj\\",
+        "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingLab\\Skeleton\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vedeghor\\AppData\\Roaming\\NuGet\\NuGet.Config",

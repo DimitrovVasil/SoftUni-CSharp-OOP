@@ -1,0 +1,9 @@
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\Database\bin\Debug\netcoreapp3.1\Database.deps.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\Database\bin\Debug\netcoreapp3.1\Database.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\Database\bin\Debug\netcoreapp3.1\Database.pdb
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfoInputs.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfo.cs
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\Database\obj\Debug\netcoreapp3.1\Database.csproj.CoreCompileInputs.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\Database\obj\Debug\netcoreapp3.1\Database.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\Database\obj\Debug\netcoreapp3.1\Database.pdb
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\Database\obj\Debug\netcoreapp3.1\Database.csprojAssemblyReference.cache

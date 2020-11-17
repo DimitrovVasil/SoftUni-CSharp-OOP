@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i5Yj/ftiC6c6KsWdHn0hm6XzIThyDoIgntd6bAaJCqzaMCbfnL99OlcDXLaEEEVc3ZnHCUN/I+QJyzZKSxjv9A==",
+  "dgSpecHash": "aRkQXMpc+asPHpfYIfOCTRcRs8YpPYOgdboFdiGlxHC/D9ljJ2RRYpU1v0jguEomcoh9ygbHx6xX1HeRfBsDEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vedeghor\\source\\repos\\C# OOP October 2020\\UnitTestingLab\\Skeleton.Tests\\Skeleton.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingLab\\Skeleton.Tests\\Skeleton.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vedeghor\\.nuget\\packages\\microsoft.codecoverage\\15.9.0\\microsoft.codecoverage.15.9.0.nupkg.sha512",
     "C:\\Users\\Vedeghor\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
