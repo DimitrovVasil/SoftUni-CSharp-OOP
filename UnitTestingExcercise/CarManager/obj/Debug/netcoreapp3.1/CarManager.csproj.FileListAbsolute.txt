@@ -1,0 +1,9 @@
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\CarManager\bin\Debug\netcoreapp3.1\CarManager.deps.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\CarManager\bin\Debug\netcoreapp3.1\CarManager.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\CarManager\bin\Debug\netcoreapp3.1\CarManager.pdb
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\CarManager\obj\Debug\netcoreapp3.1\CarManager.csprojAssemblyReference.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\CarManager\obj\Debug\netcoreapp3.1\CarManager.AssemblyInfoInputs.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\CarManager\obj\Debug\netcoreapp3.1\CarManager.AssemblyInfo.cs
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\CarManager\obj\Debug\netcoreapp3.1\CarManager.csproj.CoreCompileInputs.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\CarManager\obj\Debug\netcoreapp3.1\CarManager.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\CarManager\obj\Debug\netcoreapp3.1\CarManager.pdb
