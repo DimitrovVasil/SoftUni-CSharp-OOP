@@ -1958,14 +1958,14 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "CarManager/1.0.0": {
+      "DatabaseExtended/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/CarManager.dll": {}
+          "bin/placeholder/DatabaseExtended.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CarManager.dll": {}
+          "bin/placeholder/DatabaseExtended.dll": {}
         }
       }
     }
@@ -6516,15 +6516,15 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "CarManager/1.0.0": {
+    "DatabaseExtended/1.0.0": {
       "type": "project",
-      "path": "../CarManager/CarManager.csproj",
-      "msbuildProject": "../CarManager/CarManager.csproj"
+      "path": "../DatabaseExtended/DatabaseExtended.csproj",
+      "msbuildProject": "../DatabaseExtended/DatabaseExtended.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CarManager >= 1.0.0",
+      "DatabaseExtended >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "NUnit3TestAdapter >= 3.9.0",
       "nunit >= 3.9.0"
@@ -6536,11 +6536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingExcercise\\CarManager.Tests\\CarManager.Tests.csproj",
-      "projectName": "CarManager.Tests",
-      "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingExcercise\\CarManager.Tests\\CarManager.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingExcercise\\DatabaseExtended.Tests\\DatabaseExtended.Tests.csproj",
+      "projectName": "DatabaseExtended.Tests",
+      "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingExcercise\\DatabaseExtended.Tests\\DatabaseExtended.Tests.csproj",
       "packagesPath": "C:\\Users\\Vedeghor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingExcercise\\CarManager.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingExcercise\\DatabaseExtended.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vedeghor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6556,8 +6556,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingExcercise\\CarManager\\CarManager.csproj": {
-              "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingExcercise\\CarManager\\CarManager.csproj"
+            "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingExcercise\\DatabaseExtended\\DatabaseExtended.csproj": {
+              "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingExcercise\\DatabaseExtended\\DatabaseExtended.csproj"
             }
           }
         }

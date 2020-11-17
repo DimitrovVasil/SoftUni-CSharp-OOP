@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RmVE7BxXq7XJRC+BN7/64zw75Y42zWaSKuqBjf5Rbw1OTe50C2rMD1uhSGmOKplJZLwoxCljlcV72DoRZcFz6g==",
+  "dgSpecHash": "/yA8p/6EnXFpg2lVOFD71+XOXsmh4rImep8+lmbR5CyzoJsZft/wYpKYlnnr6kDSIP+9r1Se4TODp9ZsgT6oPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingExcercise\\CarManager.Tests\\CarManager.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\UnitTestingExcercise\\DatabaseExtended.Tests\\DatabaseExtended.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vedeghor\\.nuget\\packages\\microsoft.codecoverage\\15.9.0\\microsoft.codecoverage.15.9.0.nupkg.sha512",
     "C:\\Users\\Vedeghor\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
