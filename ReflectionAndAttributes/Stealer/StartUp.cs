@@ -13,7 +13,8 @@ namespace Stealer
 
             //var result = spy.StealFieldInfo("Stealer.Hacker", "username", "password");
             //var result = spy.AnalyzeAcessModifiers("Stealer.Hacker");
-            var result = spy.RevealPrivateMethods("Stealer.Hacker");
+            //var result = spy.RevealPrivateMethods("Stealer.Hacker");
+            var result = spy.RevealAllMethods("Stealer.Hacker");
             Console.WriteLine(result);
            
         }
