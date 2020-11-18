@@ -6,8 +6,10 @@ namespace Stealer
 {
     public class Hacker
     {
+        
         public string username = "securityGod82";
         private string password = "mySuperSecretPassw0rd";
+
 
         public string Password
         {
