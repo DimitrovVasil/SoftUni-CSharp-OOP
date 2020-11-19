@@ -20,6 +20,16 @@ namespace Tests
         }
 
         [Test]
+        public void ShouldReturnThatCountIs1()
+        {
+            Arena arena = new Arena();
+            Warrior warrior = new Warrior("Djukata", 40, 50);
+            arena.Enroll(warrior);
+
+            Assert.That(arena.Count == 1);
+        }
+
+        [Test]
         public void ArenaShouldThrowExceptionWhenTryToAddWarriorAlreadyExisting()
         {
             Arena arena = new Arena();
