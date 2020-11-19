@@ -93,3 +93,5 @@ C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\Fight
 C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\FightingArena.Tests\obj\Debug\netcoreapp3.1\FightingArena.Tests.dll
 C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\FightingArena.Tests\obj\Debug\netcoreapp3.1\FightingArena.Tests.pdb
 C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\FightingArena.Tests\obj\Debug\netcoreapp3.1\FightingArena.Tests.genruntimeconfig.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\FightingArena.Tests\bin\Debug\netcoreapp3.1\FightingArena.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\UnitTestingExcercise\FightingArena.Tests\bin\Debug\netcoreapp3.1\FightingArena.pdb
