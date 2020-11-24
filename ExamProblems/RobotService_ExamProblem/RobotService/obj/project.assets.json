@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
     "C:\\Users\\Vedeghor\\.nuget\\packages\\": {}
@@ -13,25 +13,25 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\EasterRaces_2_ExamProblem\\EasterRaces\\EasterRaces.csproj",
-      "projectName": "EasterRaces",
-      "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\EasterRaces_2_ExamProblem\\EasterRaces\\EasterRaces.csproj",
+      "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\RobotService_ExamProblem\\RobotService\\RobotService.csproj",
+      "projectName": "RobotService",
+      "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\RobotService_ExamProblem\\RobotService\\RobotService.csproj",
       "packagesPath": "C:\\Users\\Vedeghor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\EasterRaces_2_ExamProblem\\EasterRaces\\obj\\",
+      "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\RobotService_ExamProblem\\RobotService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vedeghor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "netcoreapp3.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp3.0": {
           "projectReferences": {}
         }
       },
@@ -42,7 +42,7 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "netcoreapp3.0": {
         "imports": [
           "net461",
           "net462",
@@ -53,6 +53,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
