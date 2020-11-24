@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace EasterRaces.Repositories.Entities
 {
@@ -9,8 +10,11 @@ namespace EasterRaces.Repositories.Entities
     {
         public CarRepository() : base()
         {
-          
         }
 
+        public override ICar GetByName(string name)
+        {
+            return  Models.FirstOrDefault(c => c.Model == name);
+        }
     }
 }

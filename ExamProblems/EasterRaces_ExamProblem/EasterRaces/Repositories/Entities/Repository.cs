@@ -1,56 +1,37 @@
-﻿using System;
+﻿using EasterRaces.Repositories.Contracts;
+using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Linq;
-using EasterRaces.Repositories.Contracts;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Runtime.CompilerServices;
+using System.Text;
 
 namespace EasterRaces.Repositories.Entities
 {
-    public class Repository<T> : IRepository<T>
+    public abstract class Repository<T> : IRepository<T>
     {
-        private List<T> models;
+        List<T> models;
 
         public Repository()
         {
             models = new List<T>();
         }
 
-        public ICollection<T> Models
-        { 
-            get => models;
-        }
+        public IReadOnlyCollection<T> Models => models.AsReadOnly();
 
         public void Add(T model)
         {
             models.Add(model);
         }
 
-        public ICollection<T> GetAll()
+        public IReadOnlyCollection<T> GetAll()
         {
             return models.AsReadOnly();
         }
 
-        public T GetByName(string name)
-        {
-            var result = models.FirstOrDefault(x => x.GetType().Name == name);
-            return result;
-        }
+        public abstract T GetByName(string name);
 
         public bool Remove(T model)
         {
-
             return models.Remove(model);
-            //var modelForRemove = models.FirstOrDefault(x => x.GetType() == model.GetType());
-
-            //if (modelForRemove != null)
-            //{
-            //    models.Remove(modelForRemove);
-            //    return true;
-            //}
-
-            //return false;
         }
     }
 }

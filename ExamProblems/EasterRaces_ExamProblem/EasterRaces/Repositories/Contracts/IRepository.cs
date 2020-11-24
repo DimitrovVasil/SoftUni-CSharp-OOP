@@ -4,11 +4,12 @@
 
     public interface IRepository<T>
     {
-        public ICollection<T> Models { get; }
+        T GetByName(string name);
 
-        public void Add(T model);
-        public bool Remove(T model);
-        public T GetByName(string name);
-        public ICollection<T> GetAll();
+        IReadOnlyCollection<T> GetAll();
+
+        void Add(T model);
+
+        bool Remove(T model);
     }
 }

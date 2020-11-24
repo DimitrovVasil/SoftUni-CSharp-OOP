@@ -6,9 +6,12 @@ namespace EasterRaces.Models.Races.Contracts
 
     public interface IRace
     {
-        public string Name { get; }
-        public int Laps { get; }
+        string Name { get; }
 
-        public void AddDriver(IDriver Driver);
+        int Laps { get; }
+
+        IReadOnlyCollection<IDriver> Drivers { get; }
+
+        void AddDriver(IDriver driver);
     }
 }

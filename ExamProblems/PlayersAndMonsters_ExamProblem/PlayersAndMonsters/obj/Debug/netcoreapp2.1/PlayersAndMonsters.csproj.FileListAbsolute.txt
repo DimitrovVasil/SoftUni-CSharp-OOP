@@ -1,0 +1,12 @@
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\PlayersAndMonsters_ExamProblem\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.deps.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\PlayersAndMonsters_ExamProblem\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.runtimeconfig.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\PlayersAndMonsters_ExamProblem\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.runtimeconfig.dev.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\PlayersAndMonsters_ExamProblem\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\PlayersAndMonsters_ExamProblem\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.pdb
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\PlayersAndMonsters_ExamProblem\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.AssemblyInfoInputs.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\PlayersAndMonsters_ExamProblem\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.AssemblyInfo.cs
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\PlayersAndMonsters_ExamProblem\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.csproj.CoreCompileInputs.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\PlayersAndMonsters_ExamProblem\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\PlayersAndMonsters_ExamProblem\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.pdb
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\PlayersAndMonsters_ExamProblem\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.genruntimeconfig.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\PlayersAndMonsters_ExamProblem\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.csprojAssemblyReference.cache
