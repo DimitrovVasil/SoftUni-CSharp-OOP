@@ -1,0 +1,7 @@
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\MockingAndTestDrivenDevelopment\FakeAxeAndDummy.Tests\bin\Debug\netcoreapp3.1\FakeAxeAndDummy.exe
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\MockingAndTestDrivenDevelopment\FakeAxeAndDummy.Tests\bin\Debug\netcoreapp3.1\FakeAxeAndDummy.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\MockingAndTestDrivenDevelopment\FakeAxeAndDummy.Tests\bin\Debug\netcoreapp3.1\FakeAxeAndDummy.pdb
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\MockingAndTestDrivenDevelopment\FakeAxeAndDummy.Tests\obj\Debug\netcoreapp3.1\FakeAxeAndDummy.Tests.csprojAssemblyReference.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\MockingAndTestDrivenDevelopment\FakeAxeAndDummy.Tests\obj\Debug\netcoreapp3.1\FakeAxeAndDummy.Tests.AssemblyInfoInputs.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\MockingAndTestDrivenDevelopment\FakeAxeAndDummy.Tests\obj\Debug\netcoreapp3.1\FakeAxeAndDummy.Tests.AssemblyInfo.cs
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\MockingAndTestDrivenDevelopment\FakeAxeAndDummy.Tests\obj\Debug\netcoreapp3.1\FakeAxeAndDummy.Tests.csproj.CopyComplete
