@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OnlineShop.Models.Products.Peripherals
 {
-    public class Peripheral : Product
+    public class Peripheral : Product, IPeripheral
     {
         public Peripheral(int id, string manufacturer, string model, decimal price, double overallPerformance, string connectionType)
             : base(id, manufacturer, model, price, overallPerformance)
