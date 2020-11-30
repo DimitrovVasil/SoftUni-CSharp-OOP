@@ -1,9 +1,0 @@
-C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_First_Problem_Exam\TheRace\bin\Debug\netcoreapp3.1\TheRace.deps.json
-C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_First_Problem_Exam\TheRace\bin\Debug\netcoreapp3.1\TheRace.dll
-C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_First_Problem_Exam\TheRace\bin\Debug\netcoreapp3.1\TheRace.pdb
-C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_First_Problem_Exam\TheRace\obj\Debug\netcoreapp3.1\TheRace.csprojAssemblyReference.cache
-C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_First_Problem_Exam\TheRace\obj\Debug\netcoreapp3.1\TheRace.AssemblyInfoInputs.cache
-C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_First_Problem_Exam\TheRace\obj\Debug\netcoreapp3.1\TheRace.AssemblyInfo.cs
-C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_First_Problem_Exam\TheRace\obj\Debug\netcoreapp3.1\TheRace.csproj.CoreCompileInputs.cache
-C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_First_Problem_Exam\TheRace\obj\Debug\netcoreapp3.1\TheRace.dll
-C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_First_Problem_Exam\TheRace\obj\Debug\netcoreapp3.1\TheRace.pdb
