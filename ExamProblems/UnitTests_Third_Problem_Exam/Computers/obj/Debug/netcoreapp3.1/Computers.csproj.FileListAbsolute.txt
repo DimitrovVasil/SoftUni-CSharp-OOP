@@ -1,0 +1,13 @@
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_Third_Problem_Exam\Computers\bin\Debug\netcoreapp3.1\Computers.exe
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_Third_Problem_Exam\Computers\bin\Debug\netcoreapp3.1\Computers.deps.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_Third_Problem_Exam\Computers\bin\Debug\netcoreapp3.1\Computers.runtimeconfig.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_Third_Problem_Exam\Computers\bin\Debug\netcoreapp3.1\Computers.runtimeconfig.dev.json
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_Third_Problem_Exam\Computers\bin\Debug\netcoreapp3.1\Computers.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_Third_Problem_Exam\Computers\bin\Debug\netcoreapp3.1\Computers.pdb
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_Third_Problem_Exam\Computers\obj\Debug\netcoreapp3.1\Computers.csprojAssemblyReference.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_Third_Problem_Exam\Computers\obj\Debug\netcoreapp3.1\Computers.AssemblyInfoInputs.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_Third_Problem_Exam\Computers\obj\Debug\netcoreapp3.1\Computers.AssemblyInfo.cs
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_Third_Problem_Exam\Computers\obj\Debug\netcoreapp3.1\Computers.csproj.CoreCompileInputs.cache
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_Third_Problem_Exam\Computers\obj\Debug\netcoreapp3.1\Computers.dll
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_Third_Problem_Exam\Computers\obj\Debug\netcoreapp3.1\Computers.pdb
+C:\Users\Vedeghor\Documents\GitHub\SoftUni-CSharp-OOP\ExamProblems\UnitTests_Third_Problem_Exam\Computers\obj\Debug\netcoreapp3.1\Computers.genruntimeconfig.cache

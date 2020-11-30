@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\OnlineShop_2_ExamProblem\\OnlineShop\\OnlineShop.csproj",
-      "projectName": "OnlineShop",
-      "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\OnlineShop_2_ExamProblem\\OnlineShop\\OnlineShop.csproj",
+      "projectUniqueName": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\UnitTests_Third_Problem_Exam\\Computers\\Computers.csproj",
+      "projectName": "Computers",
+      "projectPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\UnitTests_Third_Problem_Exam\\Computers\\Computers.csproj",
       "packagesPath": "C:\\Users\\Vedeghor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\OnlineShop_2_ExamProblem\\OnlineShop\\obj\\",
+      "outputPath": "C:\\Users\\Vedeghor\\Documents\\GitHub\\SoftUni-CSharp-OOP\\ExamProblems\\UnitTests_Third_Problem_Exam\\Computers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vedeghor\\AppData\\Roaming\\NuGet\\NuGet.Config",
