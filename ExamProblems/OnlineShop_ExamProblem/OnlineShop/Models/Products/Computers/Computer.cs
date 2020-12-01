@@ -8,7 +8,7 @@ using System.Text;
 
 namespace OnlineShop.Models.Products.Computers
 {
-    public class Computer : Product, IComputer
+    public abstract class Computer : Product, IComputer
     {
         private List<IComponent> components;
         private List<IPeripheral> peripherals;
