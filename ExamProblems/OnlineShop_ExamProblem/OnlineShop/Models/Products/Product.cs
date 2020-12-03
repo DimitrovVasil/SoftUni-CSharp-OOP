@@ -45,8 +45,8 @@ namespace OnlineShop.Models.Products
                     throw new ArgumentException(ExceptionMessages.InvalidManufacturer);
                 }
 
-                manufacturer = value;
-            }
+                manufacturer = value; 
+            } 
         }
         public string Model 
         {
