@@ -9,7 +9,7 @@ namespace OnlineShop
         static void Main()
         {
             // Clears output.txt file
-            string pathFile = Path.Combine("..", "..", "..", "output.txt");
+           // string pathFile = Path.Combine("..", "..", "..", "output.txt");
            // File.Create(pathFile).Close();
 
             IReader reader = new ConsoleReader();
